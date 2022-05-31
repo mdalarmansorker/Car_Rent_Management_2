@@ -39,7 +39,38 @@
     <div class="w3-container w3-black ">
     <h1 align="center" class="w3-cursive">Rent A Car</h1>
     </div>
-    
+    <center>
+<table id="customers" style="color:black;">
+    <tr>
+        <th>Date</th>
+        <th>From</th>
+        <th>To</th>
+        <th>Type</th>
+        <th>Vehicles</th>
+        <th>Price</th>
+        
+    </tr>
+    <?php
+    include_once '../DB.php';
+    $id = $_SESSION['User_id'];
+    $query = "SELECT * FROM `booking` WHERE `user_id`=$id AND `panding`=0 ORDER BY `j_date` DESC";
+    $result = mysqli_query($con, $query);
+    while($row = mysqli_fetch_array($result))
+    {
+        ?>
+        <tr>
+            <td><?php echo $row['j_date']; ?></td>
+            <td><?php echo $row['j_from']; ?></td>
+            <td><?php echo $row['j_to']; ?></td>
+            <td><?php echo $row['type']; ?></td>
+            <td><?php echo $row['vehicle']; ?></td>
+            <td><?php echo $row['price']; ?></td>
+        </tr>
+        <?php
+    }
+    ?>
+</table>
+</center>
 </div>
 
     </body>

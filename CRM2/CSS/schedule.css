@@ -57,81 +57,7 @@ cursor: pointer;
 float: right;
 }
 
-input[type=text], select, textarea {
-width: 100%;
-padding: 12px;
-border: 1px solid #ccc;
-border-radius: 4px;
-resize: vertical;
-}
 
-label {
-padding: 12px 12px 12px 0;
-display: inline-block;
-}
-input[type=password]{
-width: 100%;
-padding: 12px 20px;
-margin: 8px 0;
-display: inline-block;
-border: 1px solid #ccc;
-border-radius: 4px;
-box-sizing: border-box;
-}
-input[type=date]{
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-input[type=email]{
-width: 100%;
-padding: 12px 20px;
-margin: 8px 0;
-display: inline-block;
-border: 1px solid #ccc;
-border-radius: 4px;
-box-sizing: border-box;
-}
-input[type=tel]{
-width: 100%;
-padding: 12px 20px;
-margin: 8px 0;
-display: inline-block;
-border: 1px solid #ccc;
-border-radius: 4px;
-box-sizing: border-box;
-}
-input[type=number]{
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-
-input[type=submit] {
-background-color: white;
-width: 100%;
-color: white;
-padding: 12px 20px;
-border: none;
-border-radius: 4px;
-cursor: pointer;
-float: right;
-}
-
-input[type=submit]:hover {
-background-color: #45a049;
-}
-input[type=text] #text {
-    color: black;
-  }
 
 .container {
 border-radius: 15px;
@@ -231,7 +157,7 @@ margin-top: 6px;
 
 #customers td, #customers th {
   border: 1px solid #ddd;
-  padding: 8px;
+  
 }
 
 #customers tr:nth-child(even){background-color: #f2f2f2;}

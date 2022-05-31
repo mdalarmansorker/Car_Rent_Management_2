@@ -32,7 +32,7 @@
   <a href="insert_cost.php" class="w3-bar-item w3-button">Insert Cost</a>
   <a href="show_cost.php" class="w3-bar-item w3-button">Show Cost</a>
   <a href="schedule.php" class="w3-bar-item w3-button">Schedules</a>
-  <a href="profit.php" class="w3-bar-item w3-button">Profit</a>
+  <!-- <a href="profit.php" class="w3-bar-item w3-button">Profit</a> -->
   <?php
   echo '<a href="Backend/logout.php?logout" class="w3-bar-item w3-button">Logout</a>';
   ?>
