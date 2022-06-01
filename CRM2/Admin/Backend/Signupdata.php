@@ -10,14 +10,7 @@ include_once '../../DB.php';
 	$Gender = $_POST['Gender'];
 	$Position = $_POST['Designation'];
 	$Division = $_POST['Division'];
-	//Checking the datas if input is empty 
-	if(empty($Name) || empty($Email) || empty($Password))
-    {
-        header("Location: ../Sign_up.php?error=Fill up the form");
-
-        exit();
-    }
-    else{
+{
 		//checking the data if the email already exist in the database or not.
 		$sql2 = "SELECT * FROM `admin` WHERE `Email`='$Email';";
 		$e = mysqli_query($con,$sql2);

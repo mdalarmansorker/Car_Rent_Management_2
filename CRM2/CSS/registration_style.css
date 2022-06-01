@@ -1,0 +1,260 @@
+.car{
+    background-image: url('../Image/car1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.car2{
+  background-image: url('../Image/car4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+* {
+box-sizing: border-box;
+}
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 6px 16px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.button {
+background-color: rgb(0, 0, 0);
+border-color: white;
+border-radius: 10px;
+color: rgb(255, 255, 255);
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 20px;
+margin: 4px 4px;
+cursor: pointer;
+}
+
+.button3{
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  padding: 16px 50px;
+  font-size: 20px;
+}
+.button1 {
+background-color: black;
+padding: 16px 16px;
+}
+.button2{
+background-color:#45a049;
+color: white;
+padding: 10.5px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+float: right;
+}
+
+input[type=text], select, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+resize: vertical;
+}
+
+label {
+padding: 12px 12px 12px 0;
+display: inline-block;
+}
+input[type=password]{
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+input[type=date]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=email]{
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+input[type=tel]{
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+input[type=number]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+background-color: white;
+width: 100%;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+float: right;
+}
+
+input[type=submit]:hover {
+background-color: #45a049;
+}
+input[type=text] #text {
+    color: black;
+  }
+
+.container {
+border-radius: 15px;
+background-color: black/*#f2f2f1*/;
+color: white;
+padding: 20px;
+text-align: left;
+}
+.container_user {
+  border-radius: 15px;
+  color: white;
+  padding: 20px;
+  text-align: left;
+  }
+.container_profile {
+  border-radius: 15px;
+  color: white;
+  padding: 20px;
+  }
+.container1{
+  width: 50%;
+  text-align: left;
+}
+.container2{
+  position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 200px;
+    margin-top: 100px;
+    width: 400px;
+    margin-left: -200px;
+}
+.col-25 {
+float: left;
+width: 30%;
+margin-top: 6px;
+}
+.col-50{
+float: left;
+width: 50%;
+margin-top: 6px;
+}
+.col-75 {
+float: left;
+width: 70%;
+margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.header{
+  height: 150px;
+  width: 100%;
+  background-color: rgb(0, 132, 255);
+  margin-top: -10px;
+  text-align: center;
+  color: white;
+  
+}
+.form{
+  margin-left: 400px;
+  /* color:blue; */
+
+}
+.clr{
+  color: rgb(0, 0, 0);
+}
+.hide{
+  display:none;
+}
+.show{
+  display:block;
+}
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+#customers {
+  font-family: Time New Roman, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: auto;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+#customers tr:nth-child(odd){background-color:white;}
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #04AA6D;
+  color: white;
+}
+#panding{
+  display: none;
+  color: white;
+}
+#upcoming{
+  display: none;
+  color: white;
+}
+
+.ignore-css
+{
+    all:unset;
+}

@@ -91,7 +91,7 @@ else if (isset($_POST['status'])){
     <h1 align="center" class="w3-cursive">Car Rent Management</h1>
     </div>
     <center>
-    <button class="button" onclick="panding_request()">Panding Request</button>
+    <button class="button" onclick="panding_request()">Pending Request</button>
 </center>
 <div id="panding">
 <center>

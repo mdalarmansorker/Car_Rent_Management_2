@@ -43,8 +43,8 @@
 <div class="w3-container w3-black ">
   <h1 align="center" class="w3-cursive">Car Rent Management</h1>
 </div>
-</div>
-<table style="margin-left: 500px;" id="customers">
+
+<table  id="customers">
   <tr style="background-color:rgb(2, 109, 112);">
     <td><b>Name</b></td>
     <td><b>Email</b></td>
@@ -75,7 +75,7 @@ while($data = mysqli_fetch_array($rs))
 ?>
 </table>
 <?php mysqli_close($con);?> 
-
+</div>
 
 </body>
 </html>
